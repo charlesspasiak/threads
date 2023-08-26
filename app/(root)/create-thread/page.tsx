@@ -16,7 +16,7 @@ const page = async () => {
     <>
       <h1 className="head-text">Create Thread</h1>
 
-      <PostThread userId={userInfo._id} />
+      <PostThread userId={userInfo._id.toString()} />
     </>
   );
 };
